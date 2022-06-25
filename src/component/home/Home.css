@@ -1,0 +1,1291 @@
+:root{
+    --call-me-open:none;
+}
+
+.formError {
+    z-index: 990
+}
+
+.formError .formErrorContent {
+    z-index: 991
+}
+
+.formError .formErrorArrow {
+    z-index: 996
+}
+
+.formErrorInsideDialog.formError {
+    z-index: 5000
+}
+
+.formErrorInsideDialog.formError .formErrorContent {
+    z-index: 5001
+}
+
+.formErrorInsideDialog.formError .formErrorArrow {
+    z-index: 5006
+}
+
+.inputContainer {
+    position: relative;
+    float: left
+}
+
+.formError {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: block;
+    cursor: pointer
+}
+
+.ajaxSubmit {
+    padding: 20px;
+    background: #55ea55;
+    border: 1px solid #999;
+    display: none
+}
+
+.formError .formErrorContent {
+    width: 100%;
+    background: #f98100;
+    position: relative;
+    color: #fff;
+    width: 150px;
+    font-size: 11px;
+    border: 2px solid #ffd996;
+    box-shadow: 0 0 6px #000;
+    -moz-box-shadow: 0 0 6px #000;
+    -webkit-box-shadow: 0 0 6px #000;
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px
+}
+
+.greenPopup .formErrorContent {
+    background: #33be40
+}
+
+.blackPopup .formErrorContent {
+    background: #393939;
+    color: #fff
+}
+
+.formError .formErrorArrow {
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative
+}
+
+body.rtl .formError .formErrorArrow,
+body[dir=rtl] .formError .formErrorArrow {
+    margin: -2px 13px 0 0
+}
+
+.formError .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: 2px
+}
+
+.formError .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #444;
+    -webkit-box-shadow: 0 2px 3px #444;
+    font-size: 0;
+    height: 1px;
+    background: #f98100;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.formError .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.greenPopup .formErrorArrow div {
+    background: #33be40
+}
+
+.blackPopup .formErrorArrow div {
+    background: #393939;
+    color: #fff
+}
+
+.formError .formErrorArrow .line10 {
+    width: 15px;
+    border: none
+}
+
+.formError .formErrorArrow .line9 {
+    width: 13px;
+    border: none
+}
+
+.formError .formErrorArrow .line8 {
+    width: 11px
+}
+
+.formError .formErrorArrow .line7 {
+    width: 9px
+}
+
+.formError .formErrorArrow .line6 {
+    width: 7px
+}
+
+.formError .formErrorArrow .line5 {
+    width: 5px
+}
+
+.formError .formErrorArrow .line4 {
+    width: 3px
+}
+
+.formError .formErrorArrow .line3 {
+    width: 1px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: 0 solid #ddd
+}
+
+.formError .formErrorArrow .line2 {
+    width: 3px;
+    border: none;
+    background: #ddd
+}
+
+.formError .formErrorArrow .line1 {
+    width: 1px;
+    border: none;
+    background: #ddd
+}
+
+.MNMessageDown {
+    z-index: 990
+}
+
+.MNMessageDown .formErrorContent {
+    z-index: 991
+}
+
+.MNMessageDown .formErrorArrow {
+    z-index: 996
+}
+
+.MNMessageDown .formErrorArrow {
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative
+}
+
+.MNMessageDown .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: 2px
+}
+
+.MNMessageDown .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #444;
+    -webkit-box-shadow: 0 2px 3px #444;
+    font-size: 0;
+    height: 1px;
+    background: #f98100;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.MNMessageDown .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.MNMessageDown {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: block;
+    cursor: pointer
+}
+
+.MNMessageDown .MNMessageContentDown {
+    width: 100%;
+    background: #f98100;
+    position: relative;
+    color: #fff;
+    width: 150px;
+    font-size: 11px;
+    border: 2px solid #ffd996;
+    box-shadow: 0 0 6px #000;
+    -moz-box-shadow: 0 0 6px #000;
+    -webkit-box-shadow: 0 0 6px #000;
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.MNMessageDown .formErrorArrow .line10 {
+    width: 15px;
+    border: none
+}
+
+.MNMessageDown .formError .formErrorArrow .line9 {
+    width: 13px;
+    border: none
+}
+
+.MNMessageDown .formErrorArrow .line8 {
+    width: 11px
+}
+
+.MNMessageDown .formErrorArrow .line7 {
+    width: 9px
+}
+
+.MNMessageDown .formErrorArrow .line6 {
+    width: 7px
+}
+
+.MNMessageDown .formErrorArrow .line5 {
+    width: 5px
+}
+
+.MNMessageDown .formErrorArrow .line4 {
+    width: 3px
+}
+
+.MNMessageDown .formErrorArrow .line3 {
+    width: 1px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: 0 solid #ddd
+}
+
+.MNMessageDown .formErrorArrow .line2 {
+    width: 3px;
+    border: none;
+    background: #ddd
+}
+
+.MNMessageDown .formErrorArrow .line1 {
+    width: 1px;
+    border: none;
+    background: #ddd
+}
+
+.MNMessageDown .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: 2px
+}
+
+.MNMessageDown .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #444;
+    -webkit-box-shadow: 0 2px 3px #444;
+    font-size: 0;
+    height: 1px;
+    background: #f98100;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.MNMessageDown .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.MNMessageUp {
+    z-index: 990
+}
+
+.MNMessageUp .formErrorContent {
+    z-index: 991
+}
+
+.MNMessageUp .formErrorArrow {
+    z-index: 996
+}
+
+.MNMessageUp .formErrorArrow {
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative
+}
+
+.MNMessageUp .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #444;
+    -webkit-box-shadow: 0 2px 3px #444;
+    font-size: 0;
+    height: 1px;
+    background: #f98100;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.MNMessageUp {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: block;
+    cursor: pointer
+}
+
+.MNMessageUp .MNMessageContentUp {
+    width: 100%;
+    background: #f98100;
+    position: relative;
+    color: #fff;
+    width: 150px;
+    font-size: 11px;
+    border: 2px solid #ffd996;
+    box-shadow: 0 0 6px #000;
+    -moz-box-shadow: 0 0 6px #000;
+    -webkit-box-shadow: 0 0 6px #000;
+    padding: 4px 10px 4px 10px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    font-family: Verdana, Geneva, sans-serif
+}
+
+.MNMessageUp .formErrorArrow .line10 {
+    width: 15px;
+    border: none
+}
+
+.MNMessageUp .formError .formErrorArrow .line9 {
+    width: 13px;
+    border: none
+}
+
+.MNMessageUp .formErrorArrow .line8 {
+    width: 11px
+}
+
+.MNMessageUp .formErrorArrow .line7 {
+    width: 9px
+}
+
+.MNMessageUp .formErrorArrow .line6 {
+    width: 7px
+}
+
+.MNMessageUp .formErrorArrow .line5 {
+    width: 5px
+}
+
+.MNMessageUp .formErrorArrow .line4 {
+    width: 3px
+}
+
+.MNMessageUp .formErrorArrow .line3 {
+    width: 1px;
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    border-bottom: 0 solid #ddd
+}
+
+.MNMessageUp .formErrorArrow .line2 {
+    width: 3px;
+    border: none;
+    background: #ddd
+}
+
+.MNMessageUp .formErrorArrow .line1 {
+    width: 1px;
+    border: none;
+    background: #ddd
+}
+
+.MNMessageUp .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: -2px
+}
+
+.MNMessageUp .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #444;
+    -webkit-box-shadow: 0 2px 3px #444;
+    font-size: 0;
+    height: 1px;
+    background: #f98100;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.MNMessageUp .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.LBMessageDown {
+    z-index: 990;
+    text-align: left
+}
+
+.LBMessageDown .formErrorContent {
+    z-index: 991
+}
+
+.LBMessageDown .formErrorArrow {
+    z-index: 996
+}
+
+.LBMessageDown .formErrorArrow {
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative
+}
+
+.LBMessageDown .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: 2px
+}
+
+.LBMessageDown .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #444;
+    -moz-box-shadow: 0 2px 3px #fff;
+    -webkit-box-shadow: 0 2px 3px #fff;
+    font-size: 0;
+    height: 1px;
+    background: #f16600;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700
+}
+
+.LBMessageDown .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.LBMessageDown {
+    position: fixed;
+    top: 300px;
+    left: 300px;
+    display: none;
+    cursor: pointer
+}
+
+.LBMessageDown .LBMessageContentDown {
+    width: 100%;
+    background: #f16600;
+    position: relative;
+    color: #fff;
+    width: 150px;
+    font-size: 11px;
+    border: 0 solid #ffd996;
+    box-shadow: 0 0 6px #fff;
+    -moz-box-shadow: 0 0 6px #fff;
+    -webkit-box-shadow: 0 0 6px #fff;
+    padding: 6px 10px 6px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700
+}
+
+.LBMessageDown .formErrorArrow .line10 {
+    width: 15px;
+    border: none
+}
+
+.LBMessageDown .formError .formErrorArrow .line9 {
+    width: 13px;
+    border: none
+}
+
+.LBMessageDown .formErrorArrow .line8 {
+    width: 11px
+}
+
+.LBMessageDown .formErrorArrow .line7 {
+    width: 9px
+}
+
+.LBMessageDown .formErrorArrow .line6 {
+    width: 7px
+}
+
+.LBMessageDown .formErrorArrow .line5 {
+    width: 5px
+}
+
+.LBMessageDown .formErrorArrow .line4 {
+    width: 3px
+}
+
+.LBMessageDown .formErrorArrow .line3 {
+    width: 1px;
+    border-left: 0 solid #ddd;
+    border-right: 0 solid #ddd;
+    border-bottom: 0 solid #ddd
+}
+
+.LBMessageDown .formErrorArrow .line2 {
+    width: 3px;
+    border: none;
+    background: #ddd
+}
+
+.LBMessageDown .formErrorArrow .line1 {
+    width: 1px;
+    border: none;
+    background: #ddd
+}
+
+.LBMessageDown .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: 2px
+}
+
+.LBMessageDown .formErrorArrow div {
+    border-left: 0 solid #ddd;
+    border-right: 0 solid #ddd;
+    box-shadow: 0 2px 3px #fff;
+    -moz-box-shadow: 0 2px 3px #fff;
+    -webkit-box-shadow: 0 2px 3px #fff;
+    font-size: 0;
+    height: 1px;
+    background: #f16600;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.LBMessageDown .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.LBMessageUp {
+    z-index: 990
+}
+
+.LBMessageUp .formErrorContent {
+    z-index: 991
+}
+
+.LBMessageUp .formErrorArrow {
+    z-index: 996
+}
+
+.LBMessageUp .formErrorArrow {
+    width: 15px;
+    margin: -2px 0 0 13px;
+    position: relative
+}
+
+.LBMessageUp .formErrorArrow div {
+    border-left: 2px solid #ddd;
+    border-right: 2px solid #ddd;
+    box-shadow: 0 2px 3px #fff;
+    -moz-box-shadow: 0 2px 3px #fff;
+    -webkit-box-shadow: 0 2px 3px #fff;
+    font-size: 0;
+    height: 1px;
+    background: #f16600;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.LBMessageUp {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    display: block;
+    cursor: pointer
+}
+
+.LBMessageUp .LBMessageContentUp {
+    width: 100%;
+    background: #f16600;
+    position: relative;
+    color: #fff;
+    width: 150px;
+    font-size: 11px;
+    border: 0 solid #ffd996;
+    box-shadow: 0 0 6px #fff;
+    -moz-box-shadow: 0 0 6px #fff;
+    -webkit-box-shadow: 0 0 6px #fff;
+    padding: 6px 10px 6px 10px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700
+}
+
+.LBMessageUp .formErrorArrow .line10 {
+    width: 15px;
+    border: none
+}
+
+.LBMessageUp .formError .formErrorArrow .line9 {
+    width: 13px;
+    border: none
+}
+
+.LBMessageUp .formErrorArrow .line8 {
+    width: 11px
+}
+
+.LBMessageUp .formErrorArrow .line7 {
+    width: 9px
+}
+
+.LBMessageUp .formErrorArrow .line6 {
+    width: 7px
+}
+
+.LBMessageUp .formErrorArrow .line5 {
+    width: 5px
+}
+
+.LBMessageUp .formErrorArrow .line4 {
+    width: 3px
+}
+
+.LBMessageUp .formErrorArrow .line3 {
+    width: 1px;
+    border-left: 0 solid #ddd;
+    border-right: 0 solid #ddd;
+    border-bottom: 0 solid #ddd
+}
+
+.LBMessageUp .formErrorArrow .line2 {
+    width: 3px;
+    border: none;
+    background: #ddd
+}
+
+.LBMessageUp .formErrorArrow .line1 {
+    width: 1px;
+    border: none;
+    background: #ddd
+}
+
+.LBMessageUp .formErrorArrowBottom {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 0 0 12px;
+    top: -2px
+}
+
+.LBMessageUp .formErrorArrow div {
+    border-left: 0 solid #ddd;
+    border-right: 0 solid #ddd;
+    box-shadow: 0 2px 3px #fff;
+    -moz-box-shadow: 0 2px 3px #fff;
+    -webkit-box-shadow: 0 2px 3px #fff;
+    font-size: 0;
+    height: 1px;
+    background: #f16600;
+    margin: 0 auto;
+    line-height: 0;
+    font-size: 0;
+    display: block
+}
+
+.LBMessageUp .formErrorArrowBottom div {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+.reg_error .innerBox {
+    background: none repeat scroll 0 0 #ff9000;
+    padding: 5px
+}
+
+.reg_error h4 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700
+}
+
+.reg_error p {
+    color: #fff !important;
+    font: 14px Arial, Helvetica, sans-serif
+}
+
+.reg_error {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #959595;
+    color: #fff;
+    left: 0;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 246px;
+    z-index: 100
+}
+
+.loginErrorMsg {
+    padding: 0 5px;
+    color: red
+}
+
+.regLogErr {
+    background: none repeat scroll 0 0 #ffddde
+}
+
+.regloginValid {
+    background: none repeat scroll 0 0 #ecfed4
+}
+
+.pass_bg {
+    /* background: url(../img/site_content/facebook/pass_bg.jpg) no-repeat scroll 7px 7px #fff !important */
+}
+
+.error_message_facebook {
+    color: red;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    position: absolute;
+    top: 240px;
+    width: auto;
+    z-index: 9999
+}
+
+.floatL {
+    float: left
+}
+
+.mnloaderReg {
+    width: 47px;
+    /* background: url(/img/site_content/registrationLoader/newLoader.gif) no-repeat scroll center center; */
+    display: inline-block;
+    vertical-align: middle;
+    height: 6px;
+    text-indent: -9999px
+}
+
+.overflow-hidden {
+    overflow: hidden !important
+}
+
+.modalBox {
+    display: var(--call-me-open);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, .9);
+    z-index: 99999999;
+    box-sizing: border-box
+}
+
+.modalBox * {
+    box-sizing: border-box
+}
+
+.callMeActive .modalBox {
+    display: block
+}
+
+ .modalBox-content {
+    width: 97%;
+    max-width: 650px;
+    position: absolute;
+    background: #fff;
+    line-height: 1;
+    top: 50%;
+    left: 50%;
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, .12);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
+}
+
+.modalBox-content .modalBox-title {
+    background: #f98100;
+    padding: 0 46px
+}
+
+.modalBox-content .modalBox-title div.callTitle,
+.modalBox-content .modalBox-title h2 {
+    margin: 0;
+    font-weight: 400;
+    line-height: 60px;
+    font-size: 1.5em
+}
+
+.modalBox-title .close-btn {
+    display: inline-block;
+    /* background-image: url(/img/site_content/meritnation/newHome/home-sprite.png?v=25102016); */
+    background-repeat: no-repeat;
+    background-position: -75px -46px;
+    width: 20px;
+    font-size: 30px;
+    height: 20px;
+    cursor: pointer
+}
+
+.modalBox-content .modalBox-title .close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px
+}
+
+.modalBox-content .modalBox-body div.heading,
+.modalBox-content .modalBox-body h1 {
+    font-size: 1.62em;
+    font-weight: 300;
+    text-align: center;
+    margin: 1.929em 0;
+    padding: 0 45px
+}
+
+.modalBox-content .modalBox-body .input-group {
+    max-width: 446px;
+    margin: auto
+}
+
+.modalBox-content .modalBox-body .input-group:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+zxb n .modalBox-content .modalBox-body .input-group .group-btn {
+    padding: 0 15px
+}
+
+.modalBox-content .modalBox-body p {
+    color: #8a8a8a;
+    font-size: .875em
+}
+
+.modalBox-content .modalBox-body .example {
+    margin: 5px auto;
+    max-width: 446px;
+    padding-left: 83px
+}
+
+.modalBox-content .modalBox-body .timings {
+    text-align: center;
+    margin: 20px 0 50px
+}
+
+.modalBox-content .modalBox-body .thanksmsg {
+    font-size: 1em;
+    color: #009769;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transform: scale(.5)
+}
+
+.modalBox-content .modalBox-body video {
+    width: 100%;
+    height: auto
+}
+
+.input-group {
+    position: relative;
+    white-space: nowrap
+}
+
+.modalBox-content .modalBox-body .input-group {
+    max-width: 446px;
+    margin: auto
+}
+
+.input-group>* {
+    float: left;
+    height: 50px;
+    line-height: 50px
+}
+
+.input-group .group-addon {
+    width: 70px;
+    border: 1px solid #bababa;
+    border-right: 0;
+    line-height: 48px;
+    position: relative;
+    padding: 0 10px;
+    cursor: default
+}
+
+.input-group .group-addon .ind-flag {
+    display: inline-block;
+    /* background-image: url(/img/site_content/meritnation/newHome/home-sprite.png?v=25102016); */
+    background-repeat: no-repeat;
+    margin-right: 5px
+}
+
+.input-group .form-control {
+    width: calc(100% - 170px);
+    border: 1px solid #bababa;
+    border-right: 0;
+    padding: 0 10px;
+    -webkit-border-radius: 0;
+    border-radius: 0
+}
+
+.input-group .group-btn {
+    width: 100px;
+    padding: 0 23px;
+    background: #009769;
+    border: 0;
+    line-height: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: .875em;
+    cursor: pointer
+}
+
+.modalBox-content .modalBox-body .input-group .group-btn {
+    padding: 0 15px
+}
+
+.modalBox-content .modalBox-body p {
+    color: #8a8a8a;
+    font-size: .875em
+}
+
+.modalBox-content .modalBox-body .example {
+    margin: 5px auto;
+    max-width: 446px;
+    padding-left: 83px
+}
+
+.modalBox-content .modalBox-body .thanksmsg {
+    font-size: 1em;
+    color: #009769;
+    opacity: 0;
+    -webkit-transition: all .25s;
+    -moz-transition: all .25s;
+    -ms-transition: all .25s;
+    -o-transition: all .25s;
+    transition: all .25s;
+    -webkit-transform: scale(.5);
+    -moz-transform: scale(.5);
+    -ms-transform: scale(.5);
+    -o-transform: scale(.5);
+    transform: scale(.5)
+}
+
+.modalBox-content .modalBox-body .timings {
+    text-align: center;
+    margin: 20px 0 50px
+}
+
+.modalBox.msgSuccess .input-group .form-control,
+.modalBox.msgSuccess .input-group .group-addon {
+    border-color: #009769
+}
+
+.modalBox.msgSuccess .thanksmsg {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1)
+}
+
+.modalBox.dontDistrub .input-group .form-control,
+.modalBox.dontDistrub .input-group .group-addon {
+    border-color: orange
+}
+
+.modalBox.wrongNo.shake .input-group {
+    animation: shake .82s cubic-bezier(.36, .07, .19, .97) both
+}
+
+.modalBox.wrongNo .input-group .form-control,
+.modalBox.wrongNo .input-group .group-addon {
+    border-color: #d90716
+}
+
+@-webkit-keyframes shake {
+
+    10%,
+    90% {
+        -webkit-transform: translate3d(-1px, 0, 0);
+        transform: translate3d(-1px, 0, 0)
+    }
+
+    20%,
+    80% {
+        -webkit-transform: translate3d(2px, 0, 0);
+        transform: translate3d(2px, 0, 0)
+    }
+
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translate3d(-4px, 0, 0);
+        transform: translate3d(-4px, 0, 0)
+    }
+
+    40%,
+    60% {
+        -webkit-transform: translate3d(4px, 0, 0);
+        transform: translate3d(4px, 0, 0)
+    }
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        -webkit-transform: translate3d(-1px, 0, 0);
+        transform: translate3d(-1px, 0, 0)
+    }
+
+    20%,
+    80% {
+        -webkit-transform: translate3d(2px, 0, 0);
+        transform: translate3d(2px, 0, 0)
+    }
+
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translate3d(-4px, 0, 0);
+        transform: translate3d(-4px, 0, 0)
+    }
+
+    40%,
+    60% {
+        -webkit-transform: translate3d(4px, 0, 0);
+        transform: translate3d(4px, 0, 0)
+    }
+}
+
+@media (max-width:767px) {
+
+    .modalBox-content .modalBox-body .input-group,
+    .modalBox-content .modalBox-body div.heading,
+    .modalBox-content .modalBox-body h1,
+    .modalBox-content .modalBox-title {
+        padding: 0 10px
+    }
+}
+
+.is-fullscreen {
+    overflow: hidden;
+    height: 100%
+}
+
+.is-fullscreen .fullscreen-video-player.active {
+    opacity: 1;
+    visibility: visible
+}
+
+.fullscreen-video-player {
+    background-color: #000;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    -webkit-transition: opacity .6s ease;
+    -moz-transition: opacity .6s ease;
+    -o-transition: opacity .6s ease;
+    transition: opacity .6s ease;
+    width: 100%;
+    z-index: 999999999;
+    opacity: 0;
+    visibility: hidden;
+    outline: 0
+}
+
+.fullscreen-video-player video {
+    width: 100%;
+    height: auto;
+    max-height: 100%
+}
+
+.fullscreen-video-player .video-container {
+    outline: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
+}
+
+.fullscreen-video-player .video-container .video-row {
+    max-width: 80%;
+    min-width: 75%
+}
+
+.fullscreen-video-player .remove-btn {
+    position: absolute;
+    right: 30px;
+    top: 20px
+}
+
+.fullscreen-video-player .remove-btn {
+    background: 0 0;
+    border: none;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    z-index: 9999999
+}
+
+.icon-remove:before {
+    content: '';
+    background-color: gray;
+    border-radius: 100px;
+    width: 3px;
+    height: 20px;
+    position: absolute;
+    left: 7px;
+    top: -2px;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.icon-remove:after {
+    content: '';
+    width: 3px;
+    height: 20px;
+    background-color: gray;
+    transition: all .3s;
+    border-radius: 100px;
+    position: absolute;
+    left: 7px;
+    top: -2px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.remove-btn:hover .icon-remove:before {
+    -webkit-transform: rotate(227deg);
+    -moz-transform: rotate(227deg);
+    -ms-transform: rotate(227deg);
+    -o-transform: rotate(227deg);
+    transform: rotate(227deg)
+}
+
+.remove-btn:hover .icon-remove:after {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg)
+}
+
+.loading {
+    /* background-image: url(/img/site_content/loader2.gif); */
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+@media screen and (max-width:767px) {
+    .fullscreen-video-player .remove-btn {
+        top: 10px;
+        right: 0;
+        width: 40px;
+        height: 40px
+    }
+
+    .fullscreen-video-player .remove-btn .icon-remove {
+        width: 18px;
+        display: block;
+        height: 18px;
+        position: relative;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%)
+    }
+}
