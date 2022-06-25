@@ -1,11 +1,13 @@
-import React from 'react';
+import React from "react";
+import Header from "../header/Header";
 
 const Contact = () => {
-    return (  
-        <div>
-            
-        </div>
-    );
-}
- 
+  return (
+    <React.Fragment>
+      <Header />
+      <div></div>
+    </React.Fragment>
+  );
+};
+
 export default Contact;

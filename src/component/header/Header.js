@@ -5,7 +5,7 @@ import "./Header.js"
 const Header = () => {
   // const [isOpen, setIsOpen] = useState(false);
 
-  const openNav = () => {
+  const openNav = (event) => {
     document.documentElement.style.setProperty("--open-menu", `100%`);
   };
 
@@ -40,13 +40,13 @@ const Header = () => {
             </div>
             <div className="overlay" id="myNav">
               <ul className="nav overlay-content">
-                <a className="closebtn" href onClick={closeNav}>
+                <div className="closebtn"  onClick={closeNav}>
                   &times;
-                </a>
-                <li className="nav-item has-sub">
-                  <Link  to="/faq" className="explore">
+                </div>
+                <li className="nav-item has-sub hidden">
+                  <a href="/" onClick={ (event)=> event.preventDefault()} className="explore">
                     CAREERS
-                  </Link>
+                  </a>
                   <ul className="sub-menu">
                     <li className="has-sub">
                       <a
@@ -72,6 +72,11 @@ const Header = () => {
                 </li>
                 <li className="nav-item hidden">
                   <Link to="/faq">
+                    FAQ
+                  </Link>
+                </li>
+                <li className="nav-item hidden">
+                  <Link to="/about">
                     About us
                   </Link>
                 </li>
@@ -90,6 +95,9 @@ const Header = () => {
                     login
                   </a>
                 </li>
+                 <li className="nav-item mobile" >
+                  <p>ssdsd</p>
+                 </li>
               </ul>
             </div>
           </nav>
