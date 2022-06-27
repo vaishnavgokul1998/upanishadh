@@ -1,0 +1,42 @@
+.mobile-menu {
+    padding: 20px 0px;
+}
+.mobile-menu .item-menu{
+    padding: 20px ;
+    border-bottom: 1px solid gray;
+}
+.mobile-menu .item-menu a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+.mobile-menu .item-menu a:hover,.header-text:hover{
+    color: #009769;
+}
+.accordion{
+    box-shadow: none !important;
+    padding: 0px !important;
+}
+.accordion .header{
+    padding: 0px !important;
+    min-height:30px;
+    margin: 0px !important;
+}
+.header-text{
+    text-transform: uppercase !important;
+    color: black !important;
+    font-size: small !important;
+}
+.header-text:hover{
+    color: #009769;
+}
+.sub-menu-div{
+    padding: 0 0 0 20px !important;
+}
+.sub-menu-div .sub-menu{
+    padding: 10px 0px;
+}
+.css-sh22l5-MuiButtonBase-root-MuiAccordionSummary-root.Mui-expanded{
+    min-height: 30px !important;
+}

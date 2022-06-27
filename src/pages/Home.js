@@ -3,8 +3,6 @@ import React, { useEffect } from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
-import "./Home.css";
-import Header from "../header/Header";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -111,7 +109,6 @@ const Home = () => {
   ];
   return (
     <React.Fragment>
-      <Header />
       <section className="top-banner">
         <div className="btn-modal" onClick={handleOpen}>
           <div className="call-me">
@@ -491,7 +488,7 @@ const Home = () => {
 
                     {studentsList.slice(1).map((obj, index) => {
                       return (
-                        <div className="small-rc to_fade_up" data-aos="fade-up">
+                        <div className="small-rc to_fade_up" key={index} data-aos="fade-up">
                           <div className="image">
                             <img src={obj.profile} alt="" />
                           </div>
