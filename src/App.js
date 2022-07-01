@@ -17,22 +17,20 @@ function App() {
   }, []);
   return (
     <Router>
-      <div className="App">
-        <Routes>
-          <Route path="*" element={<PageNotFound />} />
-          <Route exact path="/" element={<Main />}>
-            <Route index element={<Home />}></Route>
-            <Route exact path="faq" element={<FAQ />}></Route>
-            <Route exact path="contact" element={<Contact />}></Route>
-            <Route exact path="about" element={<About />}></Route>
-          </Route>
-          <Route exact path="admin" element={<Admin />}>
-            <Route index element={<AdminLogin />}></Route>
-            <Route path="login" element={<AdminLogin />}></Route>
-            <Route path="dashboard" element={<DashBoard />}></Route>
-          </Route>
-        </Routes>
-      </div>
+      <Routes>
+        <Route path="*" element={<PageNotFound />} />
+        <Route exact path="/" element={<Main />}>
+          <Route index element={<Home />}></Route>
+          <Route exact path="faq" element={<FAQ />}></Route>
+          <Route exact path="contact" element={<Contact />}></Route>
+          <Route exact path="about" element={<About />}></Route>
+        </Route>
+        <Route exact path="admin" element={<Admin />}>
+          <Route index element={<AdminLogin />}></Route>
+          <Route path="login" element={<AdminLogin />}></Route>
+          <Route path="dashboard" element={<DashBoard />}></Route>
+        </Route>
+      </Routes>      
     </Router>
   );
 }

@@ -1,8 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect } from "react";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
-import Box from "@mui/material/Box";
-import Modal from "@mui/material/Modal";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -11,9 +9,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 const Home = () => {
-  const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
   var settings = {
     dots: true,
     dotsClass: "slick-dots",
@@ -38,10 +33,6 @@ const Home = () => {
     end: 4732381,
   });
 
-  const style = {
-    outline: "none",
-    p: 4,
-  };
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -77,12 +68,6 @@ const Home = () => {
       class: "12",
     },
     {
-      name: "Yamini",
-      percentage: "98.15%",
-      profile: "./yamini.jpg",
-      class: "12",
-    },
-    {
       name: "Rohit",
       percentage: "99.25%",
       profile: "./Rohit-Class12.jpg",
@@ -94,29 +79,10 @@ const Home = () => {
       profile: "./sree.jpg",
       class: "12",
     },
-    {
-      name: "Yamini",
-      percentage: "98.15%",
-      profile: "./yamini.jpg",
-      class: "12",
-    },
-    {
-      name: "Rohit",
-      percentage: "99.25%",
-      profile: "./Rohit-Class12.jpg",
-      class: "12",
-    },
   ];
   return (
     <React.Fragment>
       <section className="top-banner">
-        <div className="btn-modal" onClick={handleOpen}>
-          <div className="call-me">
-            call me
-            <br />
-            <FontAwesomeIcon icon={faArrowRight} />
-          </div>
-        </div>
         <div className="wrapper">
           <div className="row">
             <div className="left-content">
@@ -179,13 +145,13 @@ const Home = () => {
                 />
                 <source
                   media="(min-width: 320px)"
-                  srcSet="./main-banner-1366.png"
+                  srcSet="./main-banner-360.png"
                 />
                 <img
                   data-aos="fade-up"
                   className="to_fade_up"
                   alt="…"
-                  src="./main-banner-1366.png"
+                  src="./main-banner-360.png"
                 />
               </picture>
             </div>
@@ -488,7 +454,11 @@ const Home = () => {
 
                     {studentsList.slice(1).map((obj, index) => {
                       return (
-                        <div className="small-rc to_fade_up" key={index} data-aos="fade-up">
+                        <div
+                          className="small-rc to_fade_up"
+                          key={index}
+                          data-aos="fade-up"
+                        >
                           <div className="image">
                             <img src={obj.profile} alt="" />
                           </div>
@@ -627,65 +597,17 @@ const Home = () => {
                 href="/"
                 data-target="testimonial"
               >
-                <img
-                  src="../img-nm.mnimgs.com/img/site_content/meritnation/newHome/homepage/testimonial-right-img3860.png?v=1"
-                  alt=""
-                />
+                <iframe
+                  width="100%"
+                  height="100%"
+                  title="demo video"
+                  src="https://www.youtube.com/embed/iGREbst5rVM?autoplay=1"  allowfullscreen
+                ></iframe>
               </a>
-              <button className="btn btn-primary">More stories</button>
             </div>
           </div>
         </div>
       </section>
-      <Modal
-        open={open}
-        onClose={handleClose}
-        aria-labelledby="modal-modal-title"
-        aria-describedby="modal-modal-description"
-        sx={{ border: "none" }}
-      >
-        <Box sx={style}>
-          <div className="modalBox-content">
-            <div className="modalBox-title">
-              <div className="callTitle">Call me</div>
-              <span className="close-btn btn-modal-close" onClick={handleClose}>
-                &times;
-              </span>
-            </div>
-            <div className="modalBox-body">
-              <div className="heading">
-                Have a Query? We will call you right away.
-              </div>
-              <div className="input-group">
-                <div className="group-addon">
-                  <span>
-                    <em className="ind-flag"></em> +91
-                  </span>
-                </div>
-                <input
-                  className="form-control"
-                  type="text"
-                  placeholder="Enter phone number"
-                  id="phone_number"
-                />
-                <input type="hidden" id="source" name="source" value="1" />
-                <button className="group-btn" type="button">
-                  Call Now
-                </button>
-              </div>
-              <p className="example">
-                <span>E.g: 9876543210, 01112345678</span>
-              </p>
-              <p className="thanksmsg text-center">
-                We will give you a call shortly, Thank You
-              </p>
-              <p className="timings">
-                Office hours: 9:00 am to 9:00 pm IST (7 days a week)
-              </p>
-            </div>
-          </div>
-        </Box>
-      </Modal>
     </React.Fragment>
   );
 };

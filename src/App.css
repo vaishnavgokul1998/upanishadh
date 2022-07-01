@@ -6,11 +6,15 @@
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%;
+
 }
 
 body {
-  margin: 0
+  margin: 0;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
 
 article,
@@ -28,7 +32,11 @@ section,
 summary {
   display: block
 }
-
+.main-class{
+  width: 100%;
+  max-width: 100%;
+  text-align: center;
+}
 audio,
 canvas,
 progress,
@@ -41,7 +49,17 @@ audio:not([controls]) {
   display: none;
   height: 0
 }
-
+.rbc-chat{
+  z-index: 100 !important;
+}
+.chat-container{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding-right: 30px;
+  padding-bottom: 30px;
+}
 [hidden],
 template {
   display: none
@@ -6219,8 +6237,10 @@ header.main-header .menu-toggle .bar {
 .our-results {
   background: #f4f6f6;
   padding: 100px 0 130px;
-  margin-top: 212px
+  margin-top: 212px;
+  overflow-x: auto;
 }
+
 
 @media (min-width: 992px) {
   .our-results {
