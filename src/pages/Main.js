@@ -5,6 +5,7 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
+import Footer from "./Footer";
 const Main = () => {
   const style = {
     outline: "none",
@@ -27,6 +28,7 @@ const Main = () => {
         </div>
       </section>
       <Outlet />
+      <Footer/>
       <Modal
         open={open}
         onClose={handleClose}

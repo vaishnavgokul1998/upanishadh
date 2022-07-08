@@ -601,13 +601,53 @@ const Home = () => {
                   width="100%"
                   height="100%"
                   title="demo video"
-                  src="https://www.youtube.com/embed/iGREbst5rVM?autoplay=1"  allowfullscreen
+                  src="https://www.youtube.com/embed/iGREbst5rVM?autoplay=1&rel=0"  allowFullScreen="allowfullscreen"
                 ></iframe>
               </a>
             </div>
           </div>
         </div>
       </section>
+      <section className="download-app-section">
+        <div className="wrapper">
+            <div className="row">
+                <div className="dwnl-app-img">
+                    <img src="./app-img.png"
+                        alt=""/>
+                </div>
+                <div className="dwnl-app-content">
+                    <h2>To Get Notified Every Time There is a Class</h2>
+                    <p className="install-txt">Install the Meritnation App <br/> Get a link to download the app on your phone
+                    </p>
+                    <form action="#" id="applinkbox" method="get" acceptCharset="utf-8"
+                        className="pt10 pb10 hidden-xs applinkbox">
+                        <div className="phone-input-group">
+                            <div className="custom-dropdown">
+                                <img src="./india.svg"
+                                    width="15" alt=""/> +91
+                            </div>
+                            <input type="text" id="UserDetailMobile" name="data[UserDetail][mobile]" maxLength="10"
+                                 placeholder="Enter phone number" />
+                            <button type="button" id="sendLink" >
+
+                                Text App link
+                            </button>
+                        </div>
+                        <p className="msg">Thank you for your interest. You will receive sms shortly.</p>
+                        <p id="resErrorMsg" className="errorMsg">Oops somthing went wrong, please try again after some time.
+                        </p>
+                    </form>
+                    <div className="app-badge">
+                        <a href="https://play.google.com/store/apps/details?id=com.meritnation.school" className=""
+                            target="_blank" rel="noreferrer">
+                            <img src="./google-playstore.png"
+                                alt=""/>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     </React.Fragment>
   );
 };

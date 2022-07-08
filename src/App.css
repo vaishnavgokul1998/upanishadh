@@ -1,6 +1,5 @@
-
 :root {
-  --call-me-open:none;
+  --call-me-open: none;
 }
 
 html {
@@ -32,11 +31,13 @@ section,
 summary {
   display: block
 }
-.main-class{
+
+.main-class {
   width: 100%;
   max-width: 100%;
   text-align: center;
 }
+
 audio,
 canvas,
 progress,
@@ -49,10 +50,12 @@ audio:not([controls]) {
   display: none;
   height: 0
 }
-.rbc-chat{
+
+.rbc-chat {
   z-index: 100 !important;
 }
-.chat-container{
+
+.chat-container {
   position: fixed;
   right: 0;
   bottom: 0;
@@ -60,6 +63,7 @@ audio:not([controls]) {
   padding-right: 30px;
   padding-bottom: 30px;
 }
+
 [hidden],
 template {
   display: none
@@ -8152,6 +8156,16 @@ footer .part-3 p span {
   margin-left: 9px
 }
 
+.footer-bottom .bottom ul .social-media a {
+  font-size: 20px;
+
+}
+
+.footer-bottom .bottom ul .social-media a svg {
+  padding: 0px 15px;
+
+}
+
 @media (min-width: 992px) {
   .footer-bottom .bottom ul .social-media img {
     width: 22px;
@@ -8652,6 +8666,7 @@ footer .part-3 p span {
     display: none
   }
 }
+
 /*======================
     404 page
 =======================*/
@@ -9768,27 +9783,27 @@ zxb n .modalBox-content .modalBox-body .input-group .group-btn {
 
   10%,
   90% {
-      -webkit-transform: translate3d(-1px, 0, 0);
-      transform: translate3d(-1px, 0, 0)
+    -webkit-transform: translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0)
   }
 
   20%,
   80% {
-      -webkit-transform: translate3d(2px, 0, 0);
-      transform: translate3d(2px, 0, 0)
+    -webkit-transform: translate3d(2px, 0, 0);
+    transform: translate3d(2px, 0, 0)
   }
 
   30%,
   50%,
   70% {
-      -webkit-transform: translate3d(-4px, 0, 0);
-      transform: translate3d(-4px, 0, 0)
+    -webkit-transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0)
   }
 
   40%,
   60% {
-      -webkit-transform: translate3d(4px, 0, 0);
-      transform: translate3d(4px, 0, 0)
+    -webkit-transform: translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0)
   }
 }
 
@@ -9796,27 +9811,27 @@ zxb n .modalBox-content .modalBox-body .input-group .group-btn {
 
   10%,
   90% {
-      -webkit-transform: translate3d(-1px, 0, 0);
-      transform: translate3d(-1px, 0, 0)
+    -webkit-transform: translate3d(-1px, 0, 0);
+    transform: translate3d(-1px, 0, 0)
   }
 
   20%,
   80% {
-      -webkit-transform: translate3d(2px, 0, 0);
-      transform: translate3d(2px, 0, 0)
+    -webkit-transform: translate3d(2px, 0, 0);
+    transform: translate3d(2px, 0, 0)
   }
 
   30%,
   50%,
   70% {
-      -webkit-transform: translate3d(-4px, 0, 0);
-      transform: translate3d(-4px, 0, 0)
+    -webkit-transform: translate3d(-4px, 0, 0);
+    transform: translate3d(-4px, 0, 0)
   }
 
   40%,
   60% {
-      -webkit-transform: translate3d(4px, 0, 0);
-      transform: translate3d(4px, 0, 0)
+    -webkit-transform: translate3d(4px, 0, 0);
+    transform: translate3d(4px, 0, 0)
   }
 }
 
@@ -9826,7 +9841,7 @@ zxb n .modalBox-content .modalBox-body .input-group .group-btn {
   .modalBox-content .modalBox-body div.heading,
   .modalBox-content .modalBox-body h1,
   .modalBox-content .modalBox-title {
-      padding: 0 10px
+    padding: 0 10px
   }
 }
 
@@ -9962,51 +9977,64 @@ zxb n .modalBox-content .modalBox-body .input-group .group-btn {
 
 @media screen and (max-width:767px) {
   .fullscreen-video-player .remove-btn {
-      top: 10px;
-      right: 0;
-      width: 40px;
-      height: 40px
+    top: 10px;
+    right: 0;
+    width: 40px;
+    height: 40px
   }
 
   .fullscreen-video-player .remove-btn .icon-remove {
-      width: 18px;
-      display: block;
-      height: 18px;
-      position: relative;
-      left: 50%;
-      top: 50%;
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%)
+    width: 18px;
+    display: block;
+    height: 18px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%)
   }
 }
-html,body {
+
+html,
+body {
   height: 100%;
   margin: 0
 }
-.mnlogreg *, .mnlogreg *:before, .mnlogreg *:after {
+
+.mnlogreg *,
+.mnlogreg *:before,
+.mnlogreg *:after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
+
 .overflow-hidden {
-  overflow:hidden;
+  overflow: hidden;
 }
-.d_none, .already-reg, .brownTitle {
+
+.d_none,
+.already-reg,
+.brownTitle {
   display: none;
 }
+
 .text-center {
   text-align: center
 }
+
 .cursor-pointer {
   cursor: pointer;
 }
+
 .loginErrorMsg {
   color: #E60A0A;
   text-align: center;
   width: 100%;
 }
+
 .logregFormWrapper .d-arrow:after {
   content: '';
   pointer-events: none;
@@ -10020,56 +10048,68 @@ html,body {
   right: 10px;
   top: 50%;
   -webkit-transform: rotate(45deg) translateY(-50%);
-          transform: rotate(45deg),translateY(-50%);
+  transform: rotate(45deg), translateY(-50%);
 }
+
 .mnlogreg .formCenter {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .formWrapperOuter .mb35,
 .formWrapperOuter .fieldRow {
   margin-bottom: 35px;
 }
+
 .mnlogreg.pageForm .formBottom {
   margin-top: 35px;
 }
+
 .mnlogreg {
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   height: inherit;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  color: rgba(85,85,85,0.6);
+  box-sizing: border-box;
+  color: rgba(85, 85, 85, 0.6);
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
   overflow-y: auto;
 
 }
+
 /* logregFormWrapper start */
 .mnlogreg .logregFormWrapper {
   position: relative;
   z-index: 11;
 }
+
 .popupForm .registration_form {
   padding: 100px 15px;
 }
+
 .popupForm .login_form {
   padding: 50px 15px 30px;
 }
+
 .pageForm .logregFormWrapper {
   padding: 139px 15px 0;
 }
-.logregFormWrapper .formWrapperOuter, .logregFormWrapper .formBottom {
+
+.logregFormWrapper .formWrapperOuter,
+.logregFormWrapper .formBottom {
   max-width: 580px;
   margin: auto;
 }
+
 .logregFormWrapper .formWrapperOuter {
-    padding: 26px 20px 15px;
-    border-radius: 10px;
-    -webkit-box-shadow: -1px 0 20px rgba(0, 0, 0, 0.4);
-    box-shadow: -1px 0 20px rgba(0, 0, 0, 0.4);
+  padding: 26px 20px 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 0 20px rgba(0, 0, 0, 0.4);
+  box-shadow: -1px 0 20px rgba(0, 0, 0, 0.4);
 }
+
 .logregFormWrapper .regLogTitle h3 {
   font-size: 24px;
   color: #009769;
@@ -10077,6 +10117,7 @@ html,body {
   text-align: center;
   margin: 0 0 40px;
 }
+
 .logregFormWrapper .fbloginBtn {
   display: block;
   height: auto;
@@ -10091,29 +10132,35 @@ html,body {
   text-align: center;
   cursor: pointer;
 }
-.logregFormWrapper .fbloginBtn + .orLoginWith {
+
+.logregFormWrapper .fbloginBtn+.orLoginWith {
   display: inline-block;
   font-size: 11px;
   position: relative;
   left: 50%;
   margin: 30px 0;
-  -webkit-transform: translate(-50%,0);
-  -ms-transform: translate(-50%,0);
-      transform: translate(-50%,0);
+  -webkit-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
 }
-.logregFormWrapper .orLoginWith:before, .logregFormWrapper .orLoginWith:after {
+
+.logregFormWrapper .orLoginWith:before,
+.logregFormWrapper .orLoginWith:after {
   content: '';
   width: 30px;
   border-top: 1px solid #949494;
   display: inherit;
   vertical-align: middle;
 }
+
 .logregFormWrapper .orLoginWith:before {
   margin-right: 5px;
 }
+
 .logregFormWrapper .orLoginWith:after {
   margin-left: 5px;
 }
+
 .logregFormWrapper form {
   background: none;
   border: none;
@@ -10126,20 +10173,27 @@ html,body {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
 .logregFormWrapper .fieldRow {
   position: relative;
   -ms-flex-preferred-size: 100%;
-      flex-basis: 100%;
+  flex-basis: 100%;
 }
-.logregFormWrapper .fieldRow.fgroup_1,.logregFormWrapper .fieldRow.fgroup_3, .logregFormWrapper .mnRegister .fgroup_2 {
+
+.logregFormWrapper .fieldRow.fgroup_1,
+.logregFormWrapper .fieldRow.fgroup_3,
+.logregFormWrapper .mnRegister .fgroup_2 {
   -ms-flex-preferred-size: 47%;
-      flex-basis: 47%;
+  flex-basis: 47%;
 }
-.materialForm .fieldRow input, .materialForm .fieldRow .label {
+
+.materialForm .fieldRow input,
+.materialForm .fieldRow .label {
   color: #999;
   font-size: 15px;
   font-weight: normal;
 }
+
 .materialForm .fieldRow input {
   width: 100%;
   height: 37px;
@@ -10147,6 +10201,7 @@ html,body {
   border: none;
   background-color: transparent;
 }
+
 .materialForm .fieldRow .label {
   pointer-events: none;
   position: absolute;
@@ -10156,6 +10211,7 @@ html,body {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+
 .materialForm .fieldRow .bar {
   width: auto;
   height: auto;
@@ -10165,51 +10221,64 @@ html,body {
   border-width: 0 0 2px;
   background: transparent;
 }
-.materialForm .fieldRow .bar::after, .materialForm .fieldRow .bar::before {
-    content: '';
-    height: 2px;
-    width: 0;
-    bottom: -2px;
-    position: absolute;
-    background-color: #089a6e;
-    -o-transition: 0.2s ease all;
-    transition: 0.2s ease all;
-    -webkit-transition: 0.2s ease all;
+
+.materialForm .fieldRow .bar::after,
+.materialForm .fieldRow .bar::before {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: -2px;
+  position: absolute;
+  background-color: #089a6e;
+  -o-transition: 0.2s ease all;
+  transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
 }
-.fieldRow .regLogErr + label + .bar, .regLogErr + .isdFlagIcon + .bar {
+
+.fieldRow .regLogErr+label+.bar,
+.regLogErr+.isdFlagIcon+.bar {
   border-color: #F16600;
 }
-.fieldRow .regloginValid + label + .bar, .regloginValid + .isdFlagIcon + .bar {
+
+.fieldRow .regloginValid+label+.bar,
+.regloginValid+.isdFlagIcon+.bar {
   border-color: #089a6e;
 }
+
 .materialForm .fieldRow .bar::after {
   right: 50%;
 }
+
 .materialForm .fieldRow .bar::before {
   left: 50%;
 }
-.materialForm .fieldRow input:focus ~ .bar::after,
-.materialForm .fieldRow input:focus ~ .bar::before {
+
+.materialForm .fieldRow input:focus~.bar::after,
+.materialForm .fieldRow input:focus~.bar::before {
   width: 50%;
 }
-.materialForm .fieldRow input:focus ~ .label,
-.materialForm .fieldRow input:valid ~ .label {
+
+.materialForm .fieldRow input:focus~.label,
+.materialForm .fieldRow input:valid~.label {
   top: -20px;
   font-size: 11px;
   color: rgba(8, 154, 110, 0.7);
   text-transform: uppercase;
 }
-.materialForm .fieldRow input:focus ~ .label,
-.materialForm .fieldRow input:valid ~ .label {
+
+.materialForm .fieldRow input:focus~.label,
+.materialForm .fieldRow input:valid~.label {
   top: -20px;
   font-size: 11px;
   color: rgba(8, 154, 110, 0.7);
   text-transform: uppercase;
 }
+
 /* countryIsdList */
 .mnlogreg .countryISD input {
   padding-left: 32px !important;
 }
+
 .mnlogreg .countryISD ul {
   -webkit-box-shadow: 1px 2px 6px rgb(100, 100, 100);
   box-shadow: 1px 2px 6px rgb(100, 100, 100);
@@ -10226,9 +10295,11 @@ html,body {
   min-width: 100%;
   white-space: nowrap;
 }
+
 .mnlogreg .countryISD .active {
   display: block;
 }
+
 .mnlogreg .countryISD li {
   text-align: left;
   padding: 5px 0 5px 20px;
@@ -10237,16 +10308,19 @@ html,body {
   cursor: pointer;
   position: relative;
 }
+
 .mnlogreg .countryISD li::before {
   content: attr(data-isdcode);
   display: inline-block;
   width: 40px;
   padding-left: 5px;
 }
+
 .mnlogreg .countryISD li::after {
   content: attr(data-cname);
   padding-left: 5px;
 }
+
 .mnlogreg .countryISD em {
   pointer-events: none;
   width: 16px;
@@ -10262,10 +10336,12 @@ html,body {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .mnlogreg .countryISD li em {
   top: 7px;
   left: 0;
 }
+
 /* userType */
 .logregFormWrapper .userType {
   display: -webkit-box;
@@ -10277,20 +10353,24 @@ html,body {
   text-align: center;
   width: 100%;
 }
+
 .logregFormWrapper .userType label::after {
   content: attr(data-type);
   display: block;
   margin-top: 3px;
-  color: rgba(85,85,85,0.6);
+  color: rgba(85, 85, 85, 0.6);
 }
+
 .logregFormWrapper .userType .radio-btn {
   position: relative;
   font-size: 16px;
 }
+
 .logregFormWrapper .userType .radio-btn input {
   opacity: 0.01;
   color: #CDCDCD;
 }
+
 .logregFormWrapper .userType label em {
   content: '';
   position: absolute;
@@ -10300,9 +10380,10 @@ html,body {
   border-radius: 50%;
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
-      transform: translateX(-50%);
+  transform: translateX(-50%);
   left: 50%;
 }
+
 .logregFormWrapper .userType label em::after {
   content: '';
   position: absolute;
@@ -10313,21 +10394,25 @@ html,body {
   left: 0;
   -webkit-transform: scale(0.7);
   -ms-transform: scale(0.7);
-      transform: scale(0.7);
+  transform: scale(0.7);
   border-radius: 50%;
 }
+
 .logregFormWrapper .userType input:checked+em {
   border-color: #009769;
 }
+
 .logregFormWrapper .userType input:checked+em::after {
   background-color: #009769;
 }
+
 .mnselectBoxD {
   height: inherit;
   border: none !important;
   font-size: inherit;
   padding: 0;
 }
+
 .mnselectBoxD select {
   white-space: nowrap;
   background: transparent;
@@ -10340,13 +10425,15 @@ html,body {
   border-width: 0 0 2px;
   font-size: 18px;
   padding: 0 8px;
-  -webkit-appearance:none;
+  -webkit-appearance: none;
   -moz-appearance: none;
-       appearance: none;
+  appearance: none;
 }
+
 select.regloginValid {
   border-color: #089a6e;
 }
+
 /* userType end */
 .logregFormWrapper .logRegSubmitBtn {
   display: inline-block;
@@ -10362,18 +10449,25 @@ select.regloginValid {
   cursor: pointer;
   position: relative;
 }
+
 .logregFormWrapper .logRegSubmitBtn.showloader {
   color: transparent;
   pointer-events: none;
-  -webkit-user-select: none; /* Safari 3.1+ */
-  -moz-user-select: none; /* Firefox 2+ */
-  -ms-user-select: none; /* IE 10+ */
-  user-select: none; /* Standard syntax */
+  -webkit-user-select: none;
+  /* Safari 3.1+ */
+  -moz-user-select: none;
+  /* Firefox 2+ */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Standard syntax */
 }
+
 .logregFormWrapper .logRegSubmitBtn img {
   pointer-events: none;
   display: none;
 }
+
 .logregFormWrapper .logRegSubmitBtn.showloader img {
   position: absolute;
   display: inline-block;
@@ -10383,25 +10477,31 @@ select.regloginValid {
   bottom: 0;
   margin: auto;
 }
-.pageForm .formBottom{
+
+.pageForm .formBottom {
   padding-bottom: 100px;
 }
-.logregFormWrapper .formBottom{
+
+.logregFormWrapper .formBottom {
   padding: 0;
-  background-color:transparent;
+  background-color: transparent;
 }
-.formBottom > * {
+
+.formBottom>* {
   margin-bottom: 10px;
 }
-.formBottom a{
+
+.formBottom a {
   font-size: 15px;
   text-decoration: none;
   color: #089a6e;
 }
+
 .formBottom .register-link {
   font-size: 18px;
   color: #089a6e;
 }
+
 .formBottom .forgotPassword {
   color: #FF6000;
   font-size: 12px;
@@ -10409,9 +10509,11 @@ select.regloginValid {
   width: 100%;
   text-align: left;
 }
+
 .formBottom .TnC a {
   color: #3e79a4;
 }
+
 /* regfeatures start */
 .mnlogreg .regfeatures {
   position: fixed;
@@ -10423,17 +10525,20 @@ select.regloginValid {
   color: #fff;
   padding-top: 100px;
   background: #009769;
-  background: -webkit-linear-gradient(-45deg, rgba(0,88,49,1) 0%,rgba(0,151,105,1) 44%);
-  background: -webkit-linear-gradient(315deg, rgba(0,88,49,1) 0%,rgba(0,151,105,1) 44%);
-  background: -o-linear-gradient(315deg, rgba(0,88,49,1) 0%,rgba(0,151,105,1) 44%);
-  background: linear-gradient(135deg, rgba(0,88,49,1) 0%,rgba(0,151,105,1) 44%);
+  background: -webkit-linear-gradient(-45deg, rgba(0, 88, 49, 1) 0%, rgba(0, 151, 105, 1) 44%);
+  background: -webkit-linear-gradient(315deg, rgba(0, 88, 49, 1) 0%, rgba(0, 151, 105, 1) 44%);
+  background: -o-linear-gradient(315deg, rgba(0, 88, 49, 1) 0%, rgba(0, 151, 105, 1) 44%);
+  background: linear-gradient(135deg, rgba(0, 88, 49, 1) 0%, rgba(0, 151, 105, 1) 44%);
 }
+
 .pageForm .regfeatures {
   padding-top: 139px;
 }
-.mnlogreg .regfeatures > * {
+
+.mnlogreg .regfeatures>* {
   display: none;
 }
+
 /* regfeatures end */
 /* header */
 .logRegHeader {
@@ -10442,21 +10547,22 @@ select.regloginValid {
   width: 100%;
   left: 0;
   top: 0;
-  -webkit-box-shadow: 0 4px 13px rgba(0,1,1,0.15);
-          box-shadow: 0 4px 13px rgba(0,1,1,0.15);
+  -webkit-box-shadow: 0 4px 13px rgba(0, 1, 1, 0.15);
+  box-shadow: 0 4px 13px rgba(0, 1, 1, 0.15);
   z-index: 99;
   height: 53px;
   padding: 0 15px;
   display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
+
 .logRegHeader .logo {
   /* background-image: url(/img/site_content/meritnation-unit-of-aakash_white.svg?version=28112020); */
   background-repeat: no-repeat;
@@ -10466,6 +10572,7 @@ select.regloginValid {
   display: inline-block;
   margin-top: -5px;
 }
+
 .logRegHeader .line-btn {
   display: inline-block;
   font-size: 16px;
@@ -10478,13 +10585,16 @@ select.regloginValid {
   padding: 7px 25px;
   border-radius: 25px;
 }
-.logRegHeader .line-btn + .line-btn {
+
+.logRegHeader .line-btn+.line-btn {
   margin-left: 15px;
 }
+
 .logRegHeader .btn-disable {
   opacity: .4;
   pointer-events: none;
 }
+
 /* /header */
 /*  form adjustment for page-popup-aside */
 .mnlogreg.popupForm {
@@ -10495,23 +10605,32 @@ select.regloginValid {
   right: 0;
   bottom: 0;
   margin: auto;
-  background-color: rgba(255,255,255,.97);
+  background-color: rgba(255, 255, 255, .97);
 }
-.mnlogreg.popupForm, .popupForm .registration_form, .popupForm .login_form,
-.asideForm .registration_form, .asideForm .login_form {
+
+.mnlogreg.popupForm,
+.popupForm .registration_form,
+.popupForm .login_form,
+.asideForm .registration_form,
+.asideForm .login_form {
   display: none;
 }
-.showLoginForm .mnlogreg, .showLoginForm .login_form,
-.showRegForm .mnlogreg, .showRegForm .registration_form {
+
+.showLoginForm .mnlogreg,
+.showLoginForm .login_form,
+.showRegForm .mnlogreg,
+.showRegForm .registration_form {
   display: block !important;
 }
-.regLoginPopupClose { /* popup button css*/
+
+.regLoginPopupClose {
+  /* popup button css*/
   position: fixed;
   right: 20px;
   top: 7px;
   width: 38px;
   height: 38px;
-  background-color: rgba(0,0,0,.1);
+  background-color: rgba(0, 0, 0, .1);
   color: #333;
   border: none;
   padding: 0;
@@ -10521,29 +10640,35 @@ select.regloginValid {
   font-size: 15px;
   font-weight: 700;
 }
-.regLoginPopupClose:after, .regLoginPopupClose:before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 22px;
-    height: 2px;
-    background: #333;
-    left: 8px;
-}
-.regLoginPopupClose:after {
-    -webkit-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-}
+
+.regLoginPopupClose:after,
 .regLoginPopupClose:before {
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+  content: '';
+  display: block;
+  position: absolute;
+  width: 22px;
+  height: 2px;
+  background: #333;
+  left: 8px;
 }
+
+.regLoginPopupClose:after {
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.regLoginPopupClose:before {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
 .regLoginPopupClose:hover {
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, .3);
   color: #212121;
 }
+
 .creatAccBtn {
   width: 138px;
   background-color: #009769;
@@ -10551,7 +10676,9 @@ select.regloginValid {
   color: #fff;
   border-radius: 5px;
 }
-.loginBtn-v2, .creatAccBtn {
+
+.loginBtn-v2,
+.creatAccBtn {
   display: inline-block;
   height: 36px;
   line-height: 36px;
@@ -10566,18 +10693,27 @@ select.regloginValid {
 .loginBtn-v2 {
   color: #000;
 }
+
 .stickyHeader .loginBtn-v2 {
   color: #fff;
 }
-.fbAutoConnectPopup{
+
+.fbAutoConnectPopup {
   position: fixed;
-  background-color: rgba(0,0,0,.3);
+  background-color: rgba(0, 0, 0, .3);
   z-index: 99999;
 }
-.fbAutoConnectPopup, .fbAutoConnectPopup .popupContentBox{
-  left: 0; top: 0; right: 0; bottom: 0; margin: auto;
+
+.fbAutoConnectPopup,
+.fbAutoConnectPopup .popupContentBox {
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
-.fbAutoConnectPopup .popupContentBox{
+
+.fbAutoConnectPopup .popupContentBox {
   background: #fff;
   width: 50%;
   min-width: 320px;
@@ -10585,58 +10721,68 @@ select.regloginValid {
   position: absolute;
   padding: 20px;
   display: -webkit-box;
-       display: -ms-flexbox;
-       display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
-.fbAutoConnectPopup .popupContent{
+
+.fbAutoConnectPopup .popupContent {
   font-size: 20px;
 }
-.fbAutoConnectPopup .userName{
+
+.fbAutoConnectPopup .userName {
   color: #009769;
 }
-.mnlogreg .slogan-text{
+
+.mnlogreg .slogan-text {
   font-size: 14px;
   line-height: 17px;
   margin-top: 5px;
 }
+
 /* end form adjustment for page-popup-aside */
 /* media query */
 @media screen and (min-width:768px) {
   .logregFormWrapper .regLogTitle h3 {
     font-size: 32px;
   }
+
   .regLogLightBoxWithoutClose .popupForm {
-    background: rgba(0,0,0,0.75);
+    background: rgba(0, 0, 0, 0.75);
   }
-  .fbAutoConnectPopup .popupContent{
+
+  .fbAutoConnectPopup .popupContent {
     font-size: 25px;
   }
+
   .regLogLightBoxWithoutClose .fbloginBtn {
     font-size: 24px;
     padding: .5em;
   }
-  .mnlogreg .regfeatures{
+
+  .mnlogreg .regfeatures {
     height: 100%;
     width: 33%;
   }
+
   .logRegHeader {
     background: transparent;
     border-radius: 7px;
     width: 90%;
     left: 5%;
     top: 23px;
-    -webkit-box-shadow: 0 4px 13px rgba(0,1,1,0.15);
-            box-shadow: 0 4px 13px rgba(0,1,1,0.15);
+    -webkit-box-shadow: 0 4px 13px rgba(0, 1, 1, 0.15);
+    box-shadow: 0 4px 13px rgba(0, 1, 1, 0.15);
     z-index: 99;
     height: 68px;
     padding: 0 27px;
   }
+
   .pageForm .logregFormWrapper:before {
     content: "";
     position: fixed;
@@ -10647,16 +10793,20 @@ select.regloginValid {
     height: 91px;
     z-index: 5;
   }
+
   .formBottom .forgotPassword {
     font-size: 15px;
   }
+
   .logRegHeader .line-btn {
     color: #9C9C9C;
     border-color: #b8b8b8;
   }
+
   .mnlogreg .regfeatures {
     z-index: 13;
   }
+
   .logregFormWrapper .formBottom {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10667,38 +10817,45 @@ select.regloginValid {
     text-align: center;
     font-size: 15px;
   }
-  .login_form .formWrapperOuter + .formBottom {
+
+  .login_form .formWrapperOuter+.formBottom {
     display: none;
   }
+
   .login_form .fieldRow.text-center {
     padding-top: 45px;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
-  .popupForm .login_form .formBottom, .pageForm  .login_form .formBottom {
+
+  .popupForm .login_form .formBottom,
+  .pageForm .login_form .formBottom {
     max-height: 40px;
     margin: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
-  .mnlogreg .regfeatures ~ .logregFormWrapper{
+
+  .mnlogreg .regfeatures~.logregFormWrapper {
     margin-left: 33%;
   }
-  .mnlogreg .regfeatures > * {
+
+  .mnlogreg .regfeatures>* {
     display: inline-block !important;
   }
+
   .regfeatures--title {
     margin: 6px 0 0;
     font-size: 32px;
@@ -10706,81 +10863,99 @@ select.regloginValid {
     padding-bottom: 25px;
     color: #fff;
   }
+
   .regfeatures--title strong {
     font-weight: 500;
   }
+
   .regfeatures ul {
     margin: 0;
     list-style: none;
     padding: 0;
   }
+
   .regfeatures .h-center {
     padding: 0 15px;
     display: inline-block;
     -webkit-transform: translate(-50%);
     -ms-transform: translate(-50%);
-        transform: translate(-50%);
+    transform: translate(-50%);
     left: 50%;
     position: relative;
   }
+
   .regfeatures li {
     font-size: 18px;
     padding-bottom: 27px;
     padding-left: 5px;
   }
+
   .regfeatures li:before {
     content: '';
     display: inline-block;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
-        transform: rotate(45deg);
+    transform: rotate(45deg);
     height: 12px;
     width: 6px;
     border-bottom: 2px solid #fff;
     border-right: 2px solid #fff;
     margin-right: 15px;
   }
+
   .mnlogreg.pageForm .formBottom {
     margin-top: 0;
   }
+
   .logregFormWrapper .formWrapperOuter {
     padding: 0;
     border-radius: 20px;
     -webkit-box-shadow: initial;
     box-shadow: initial;
   }
+
   .logregFormWrapper .regLogTitle {
     background: none;
   }
+
   .logregFormWrapper .regLogTitle h3 {
     font-family: inherit;
     font-size: 36px;
     margin: 0 0 40px;
   }
+
   .logregFormWrapper .fbloginBtn {
     font-size: 30px;
   }
-  .logregFormWrapper .fbloginBtn + .orLoginWith {
+
+  .logregFormWrapper .fbloginBtn+.orLoginWith {
     font-size: 16px;
     margin: 50px 0;
   }
+
   .logregFormWrapper .formBottom {
     margin-bottom: 30px;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
   }
-  .logregFormWrapper .formBottom >* {
+
+  .logregFormWrapper .formBottom>* {
     margin-bottom: 0;
   }
-  .materialForm .fieldRow input, .materialForm .fieldRow .label {
+
+  .materialForm .fieldRow input,
+  .materialForm .fieldRow .label {
     font-size: 18px;
   }
 }
+
 /* auto popup form */
-.regLogLightBoxWithoutClose .regfeatures,.regLogLightBoxWithoutClose .regLoginPopupClose {
+.regLogLightBoxWithoutClose .regfeatures,
+.regLogLightBoxWithoutClose .regLoginPopupClose {
   display: none;
 }
+
 .regLogLightBoxWithoutClose .logregFormWrapper {
   margin: 0 auto !important;
   max-width: 500px;
@@ -10788,6 +10963,7 @@ select.regloginValid {
   background: #FFF;
   padding: 15px;
 }
+
 .regLogLightBoxWithoutClose .brownTitle {
   color: #009769;
   font-size: 20px;
@@ -10795,24 +10971,34 @@ select.regloginValid {
   text-align: center;
   display: block;
 }
+
 .regLogLightBoxWithoutClose .regLogTitle h3 {
   display: none;
 }
-.regLogLightBoxWithoutClose .fieldRow input, .regLogLightBoxWithoutClose .fieldRow .label, .regLogLightBoxWithoutClose .mnselectBoxD select {
+
+.regLogLightBoxWithoutClose .fieldRow input,
+.regLogLightBoxWithoutClose .fieldRow .label,
+.regLogLightBoxWithoutClose .mnselectBoxD select {
   font-size: 15px;
 }
-.regLogLightBoxWithoutClose .fieldRow input, .regLogLightBoxWithoutClose .mnselectBoxD select {
+
+.regLogLightBoxWithoutClose .fieldRow input,
+.regLogLightBoxWithoutClose .mnselectBoxD select {
   height: 28px;
 }
-.regLogLightBoxWithoutClose .mb35, .regLogLightBoxWithoutClose .fieldRow {
+
+.regLogLightBoxWithoutClose .mb35,
+.regLogLightBoxWithoutClose .fieldRow {
   margin-bottom: 25px;
 }
+
 .regLogLightBoxWithoutClose .logRegSubmitBtn {
   height: 40px;
   line-height: 40px;
   padding: 0 30px;
   font-size: 16px;
 }
+
 .regLogLightBoxWithoutClose .already-reg {
   font-size: 12px;
   padding: 0;
@@ -10822,40 +11008,50 @@ select.regloginValid {
   color: #3e79a4;
   margin: 0 auto;
 }
+
 .regLogLightBoxWithoutClose .registration_form .formBottom {
   flex-wrap: wrap;
 }
-.regLogLightBoxWithoutClose .registration_form .formBottom > * {
+
+.regLogLightBoxWithoutClose .registration_form .formBottom>* {
   margin-bottom: 15px;
 }
+
 /* end auto popup form */
 /* aside form manage and design  */
 .registrationForm {
   margin: -33px -25px 50px;
 }
-.mnlogreg.pageForm,.mnlogreg.asideForm{
+
+.mnlogreg.pageForm,
+.mnlogreg.asideForm {
   display: block !important;
 }
+
 .asideForm {
   background: #009769;
   overflow: hidden;
   -webkit-box-shadow: -1px 0 5px 2px rgba(0, 0, 0, 0.15);
-          box-shadow: -1px 0 5px 2px rgba(0, 0, 0, 0.15);
+  box-shadow: -1px 0 5px 2px rgba(0, 0, 0, 0.15);
 }
 
-.registerForm .registration_form, .logForm .login_form {
+.registerForm .registration_form,
+.logForm .login_form {
   display: block;
 }
-.asideForm .fieldRow input, .asideForm .fieldRow .label {
+
+.asideForm .fieldRow input,
+.asideForm .fieldRow .label {
   font-size: 15px;
 }
 
-.asideForm .regLogTitle{
+.asideForm .regLogTitle {
   padding: 15px;
   text-align: center;
   background: #009769;
   color: #FFF;
 }
+
 .asideForm .regLogTitle h3 {
   color: #FFF;
   font-size: 20px;
@@ -10867,59 +11063,76 @@ select.regloginValid {
   margin: 0 10px;
   padding: 35px 15px 0;
 }
+
 .asideForm .fieldRow .bar {
   border-width: 0 0 1px;
 }
+
 .asideForm .fieldRow .label {
   left: 6px;
   top: 5px;
 }
-.asideForm .fieldRow input, .asideForm .fieldRow select {
+
+.asideForm .fieldRow input,
+.asideForm .fieldRow select {
   height: 26px;
   padding: 0 6px;
 }
-.asideForm .mb35, .asideForm .fieldRow {
+
+.asideForm .mb35,
+.asideForm .fieldRow {
   margin-bottom: 25px;
 }
+
 .asideForm .text-center.fieldRow {
   padding-top: 10px;
 }
-.asideForm .fieldRow input:focus ~ .label,
-.asideForm .fieldRow input:valid ~ .label {
+
+.asideForm .fieldRow input:focus~.label,
+.asideForm .fieldRow input:valid~.label {
   top: -13px;
 }
+
 .asideForm .inputGroup input,
 .asideForm .mnselectBox input[readonly] {
   font-size: 15px;
   height: 25px;
   padding: 0 6px;
 }
+
 .asideForm .fieldRow .bar::after,
 .asideForm .fieldRow .bar::before {
   bottom: -1px;
   height: 1px;
 }
-.asideForm select, .asideForm .userType label::after {
+
+.asideForm select,
+.asideForm .userType label::after {
   font-size: 15px;
 }
+
 .asideForm .logRegSubmitBtn {
   font-size: 16px;
   height: 38px;
   line-height: 38px;
   padding: 0 30px;
 }
+
 .asideForm .formBottom {
   color: #FFF;
   flex-direction: column-reverse;
   text-align: center;
   padding: 20px 10px 0;
 }
+
 .asideForm .login_form {
   padding: 0 0 58px;
 }
+
 .asideForm .login_form .fieldRow.text-center {
   position: static;
 }
+
 .asideForm .login_form .dontHaveAcc {
   font-size: 14px;
   position: absolute;
@@ -10928,124 +11141,159 @@ select.regloginValid {
   width: 100%;
   text-align: center;
 }
+
 .asideForm .register-link {
   color: #FFF;
   font-size: 15px;
   text-decoration: underline;
 }
+
 .asideForm .registration_form .formBottom {
   padding: 20px 10px;
 }
+
 .asideForm select {
   border-width: 0 0 1px;
 }
+
 .asideForm .logRegHaveAcc {
   font-size: 12px;
   padding-bottom: 5px;
 }
+
 .asideForm .TnC {
   font-size: 11px;
 }
-.asideForm .TnC a, .asideForm .logRegHaveAcc a {
+
+.asideForm .TnC a,
+.asideForm .logRegHaveAcc a {
   font-size: 13px;
   text-decoration: underline;
   color: #FFF;
 }
+
 .asideForm .login_form .fieldRow {
   padding-top: 10px;
   -webkit-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
+
 /* end aside form manage and design  */
 /* jee aipmt css for side registration form */
-.jeeAipmtForm, .jeeAipmtForm .formWrapperOuter {
+.jeeAipmtForm,
+.jeeAipmtForm .formWrapperOuter {
   background: none;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
+
 .jeeAipmtForm .formWrapperOuter {
   padding: 0;
 }
+
 .jeeAipmtForm .regLogTitle h3 {
   font-size: 20px;
   text-transform: initial;
 }
+
 .jeeAipmtForm .logRegSubmitBtn {
   font-size: 13px;
 }
+
 .jeeAipmtForm form {
   margin: 0;
 }
+
 /* end jee aipmt css for side registration form */
 
 /* media query for mobile only */
 @media screen and (max-width: 767px) {
-    .showRegForm > *:not(.popupForm), .showLoginForm  > *:not(.popupForm) {
-        display: none;
-    }
-    .showRegForm .mnlogreg.popupForm, .showLoginForm .mnlogreg.popupForm {
-        position: static;
-    }
-    .regLogLightBoxWithoutClose .logregFormWrapper .formWrapperOuter {
-        box-shadow: none;
-    }
+
+  .showRegForm>*:not(.popupForm),
+  .showLoginForm>*:not(.popupForm) {
+    display: none;
+  }
+
+  .showRegForm .mnlogreg.popupForm,
+  .showLoginForm .mnlogreg.popupForm {
+    position: static;
+  }
+
+  .regLogLightBoxWithoutClose .logregFormWrapper .formWrapperOuter {
+    box-shadow: none;
+  }
+
   .dontHaveAcc {
     font-size: 12px;
     display: block;
   }
-  .registration_form + .formBottom {
+
+  .registration_form+.formBottom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
+
   .formBottom .logRegHaveAcc {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
   }
+
   .popupForm .TnC {
     font-size: 14px;
   }
+
   .logregFormWrapper .formWrapperOuter {
     background: #FFF;
   }
-  .pageForm .registration_form .formBottom, .popupForm .registration_form .formBottom {
+
+  .pageForm .registration_form .formBottom,
+  .popupForm .registration_form .formBottom {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
-  .pageForm .fieldRow .formBottom, .popupForm .fieldRow .formBottom {
+
+  .pageForm .fieldRow .formBottom,
+  .popupForm .fieldRow .formBottom {
     display: none;
   }
+
   .regLoginPopupClose {
-    background: rgba(255,255,255,.7);
-    -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, .7);
+    -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   }
+
   .popupForm .login_form {
     padding-top: 100px;
     height: 100%;
   }
+
   .popupForm .formBottom {
     margin-top: 50px;
     max-width: 90%;
     margin-left: auto !important;
     margin-right: auto !important;
   }
+
   .asideForm .registration_form .formBottom {
     background: transparent;
   }
-  .logregFormWrapper .fbloginBtn + .orLoginWith {
+
+  .logregFormWrapper .fbloginBtn+.orLoginWith {
     margin: 30px 0 50px;
   }
-  .formBottom{
+
+  .formBottom {
     background: #fff;
     margin-left: -20px !important;
     margin-right: -20px !important;
