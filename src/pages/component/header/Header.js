@@ -1,17 +1,13 @@
-import {
-  Accordion,
-  Box,
-  Drawer,
-} from "@mui/material";
-import React, { useState,useEffect,useLayoutEffect } from "react";
-import { Link } from "react-router-dom";
+import { Accordion, Box, Drawer } from "@mui/material";
+import React, { useState, useEffect, useLayoutEffect } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import "./Header.css";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 const Header = () => {
-  // const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
   const [state, setState] = useState({ left: false });
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -25,12 +21,16 @@ const Header = () => {
   let anchor = "left";
   const [width] = useWindowSize();
   useEffect(() => {
-    if(width > 991){
-      console.log(width)
+    if (width > 991) {
+      console.log(width);
       setState({ left: false });
     }
-  }, [width])
-  
+  }, [width]);
+
+  const homeClick = () => {
+    navigate("/");
+  };
+
   return (
     <React.Fragment key={anchor}>
       <header className="main-header">
@@ -48,8 +48,9 @@ const Header = () => {
                   <span className="bar"></span>
                 </div>
                 <img
-                  src="https://img-nm.mnimgs.com/img/site_content/meritnation-unit-of-aakash_color.svg"
+                  src="./logo-header.png"
                   className="logo-img"
+                  onClick={() => homeClick()}
                   alt=""
                 />
               </div>
@@ -59,7 +60,7 @@ const Header = () => {
                   href="{'https://upanishadh.com/'}"
                   className="btn btn-primary signup login-btn mnLoginPopup"
                 >
-                  Sign Up
+                  Login
                 </a>
               </div>
               <div className="overlay" id="myNav">
@@ -183,9 +184,9 @@ function useWindowSize() {
     function updateSize() {
       setSize([window.innerWidth, window.innerHeight]);
     }
-    window.addEventListener('resize', updateSize);
+    window.addEventListener("resize", updateSize);
     updateSize();
-    return () => window.removeEventListener('resize', updateSize);
+    return () => window.removeEventListener("resize", updateSize);
   }, []);
   return size;
 }

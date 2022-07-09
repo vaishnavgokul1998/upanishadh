@@ -8,6 +8,10 @@ import { useCountUp } from "react-countup";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import {
+  DEFAULT_STUDENT_LIST,
+  DEFAULT_TESTINOMAL_LIST,
+} from "./constants/Constants";
 const Home = () => {
   var settings = {
     dots: true,
@@ -36,50 +40,8 @@ const Home = () => {
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
-  const studentsList = [
-    {
-      name: "Rohit",
-      percentage: "99.25%",
-      profile: "./Rohit-Class12.jpg",
-      class: "12",
-    },
-    {
-      name: "Sree",
-      percentage: "98.25%",
-      profile: "./sree.jpg",
-      class: "12",
-    },
-    {
-      name: "Yamini",
-      percentage: "98.15%",
-      profile: "./yamini.jpg",
-      class: "12",
-    },
-    {
-      name: "Rohit",
-      percentage: "99.25%",
-      profile: "./Rohit-Class12.jpg",
-      class: "12",
-    },
-    {
-      name: "Sree",
-      percentage: "98.25%",
-      profile: "./sree.jpg",
-      class: "12",
-    },
-    {
-      name: "Rohit",
-      percentage: "99.25%",
-      profile: "./Rohit-Class12.jpg",
-      class: "12",
-    },
-    {
-      name: "Sree",
-      percentage: "98.25%",
-      profile: "./sree.jpg",
-      class: "12",
-    },
-  ];
+  const studentsList = DEFAULT_STUDENT_LIST;
+  const testinomailList = DEFAULT_TESTINOMAL_LIST;
   return (
     <React.Fragment>
       <section className="top-banner">
@@ -189,7 +151,7 @@ const Home = () => {
               </div>
             </div>
             <div className="bottom-txt to_fade_up">
-              Meritnation's unique blend of features developed after years of
+              Upanishadh's unique blend of features developed after years of
               research, to help you excel
             </div>
           </div>
@@ -488,106 +450,25 @@ const Home = () => {
               </div>
               <div className="slider students-love-slider">
                 <Slider {...settings}>
-                  <div className="testimonial-content">
-                    <div className="feedback-txt">
-                      "Meritnation cleared my concepts amazingly. I can study
-                      anytime, anywhere and I can allot as much time as I want
-                      to study my favourite subjects."
-                    </div>
-                    <div className="testi-img-name">
-                      <div className="image">
-                        <div className="pro-pic">
-                          <img src="./tsml-5.jpg" alt="" />
+                  {testinomailList.map((obj, ind) => {
+                    return (
+                      <div className="testimonial-content">
+                        <div className="feedback-txt">" {obj.feedback} "</div>
+                        <div className="testi-img-name">
+                          <div className="image">
+                            <div className="pro-pic">
+                              <img src={obj.profileImg} alt="" />
+                            </div>
+                          </div>
+                          <div className="name-content">
+                            <span>{obj.name}</span>
+                            <span>{obj.class}</span>
+                            <span>{obj.school}</span>
+                          </div>
                         </div>
                       </div>
-                      <div className="name-content">
-                        <span>Umang Mangal</span>
-                        <span>Class 10</span>
-                        <span>Gyan Bharti School, New Delhi</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="testimonial-content">
-                    <div className="feedback-txt">
-                      "Meritnation is so easy and convenient to use. The website
-                      has zero complications and it's a one-stop solution for
-                      all my learning needs."
-                    </div>
-                    <div className="testi-img-name">
-                      <div className="image">
-                        <div className="pro-pic">
-                          <img src="./tsml-1.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="name-content">
-                        <span>Shaurya Sharma</span>
-                        <span>Class 12</span>
-                        <span>Birla Vidya Niketan, New Delhi</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="testimonial-content">
-                    <div className="feedback-txt">
-                      "These classes are so good & interactive. Explanation &
-                      Clarity of the topics are just awesome. Interaction
-                      between the lecturer and us students is cordial and
-                      friendly. I am able to understand the topics well."
-                    </div>
-                    <div className="testi-img-name">
-                      <div className="image">
-                        <div className="pro-pic">
-                          <img src="./tsml-5.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="name-content">
-                        <span>Shivangi Lubana</span>
-                        <span>Class XI</span>
-                        <span>Modern Vidya Niketan, Faridabad</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="testimonial-content">
-                    <div className="feedback-txt">
-                      "I don't need to carry my books or stationery since
-                      Meritnation has everything. The badges boosted my
-                      confidence and morale. My parents don't need to constantly
-                      worry about my studies anymore."
-                    </div>
-                    <div className="testi-img-name">
-                      <div className="image">
-                        <div className="pro-pic">
-                          <img src="./tsml-1.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="name-content">
-                        <span>Shagun Mudgal</span>
-                        <span>Class 9</span>
-                        <span>The Banyan Tree, New Delhi</span>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="testimonial-content">
-                    <div className="feedback-txt">
-                      "NCERT and textbook solutions is revolutionary for me. It
-                      helped me answer textbook questions faster than ever"
-                    </div>
-                    <div className="testi-img-name">
-                      <div className="image">
-                        <div className="pro-pic">
-                          <img src="./tsml-1.jpg" alt="" />
-                        </div>
-                      </div>
-                      <div className="name-content">
-                        <span>Nidhi Fogaat</span>
-                        <span>Class 10</span>
-                        <span>St Mary's School, New Delhi</span>
-                      </div>
-                    </div>
-                  </div>
+                    );
+                  })}
                 </Slider>
               </div>
             </div>
@@ -601,7 +482,8 @@ const Home = () => {
                   width="100%"
                   height="100%"
                   title="demo video"
-                  src="https://www.youtube.com/embed/iGREbst5rVM?autoplay=1&rel=0"  allowFullScreen="allowfullscreen"
+                  src="https://www.youtube.com/embed/iGREbst5rVM?autoplay=1&rel=0"
+                  allowFullScreen="allowfullscreen"
                 ></iframe>
               </a>
             </div>
@@ -610,44 +492,59 @@ const Home = () => {
       </section>
       <section className="download-app-section">
         <div className="wrapper">
-            <div className="row">
-                <div className="dwnl-app-img">
-                    <img src="./app-img.png"
-                        alt=""/>
-                </div>
-                <div className="dwnl-app-content">
-                    <h2>To Get Notified Every Time There is a Class</h2>
-                    <p className="install-txt">Install the Meritnation App <br/> Get a link to download the app on your phone
-                    </p>
-                    <form action="#" id="applinkbox" method="get" acceptCharset="utf-8"
-                        className="pt10 pb10 hidden-xs applinkbox">
-                        <div className="phone-input-group">
-                            <div className="custom-dropdown">
-                                <img src="./india.svg"
-                                    width="15" alt=""/> +91
-                            </div>
-                            <input type="text" id="UserDetailMobile" name="data[UserDetail][mobile]" maxLength="10"
-                                 placeholder="Enter phone number" />
-                            <button type="button" id="sendLink" >
-
-                                Text App link
-                            </button>
-                        </div>
-                        <p className="msg">Thank you for your interest. You will receive sms shortly.</p>
-                        <p id="resErrorMsg" className="errorMsg">Oops somthing went wrong, please try again after some time.
-                        </p>
-                    </form>
-                    <div className="app-badge">
-                        <a href="https://play.google.com/store/apps/details?id=com.meritnation.school" className=""
-                            target="_blank" rel="noreferrer">
-                            <img src="./google-playstore.png"
-                                alt=""/>
-                        </a>
-                    </div>
-                </div>
+          <div className="row">
+            <div className="dwnl-app-img">
+              <img src="./app-img.png" alt="" />
             </div>
+            <div className="dwnl-app-content">
+              <h2>To Get Notified Every Time There is a Class</h2>
+              <p className="install-txt">
+                Install the Upanishadh App <br /> Get a link to download the app
+                on your phone
+              </p>
+              <form
+                action="#"
+                id="applinkbox"
+                method="get"
+                acceptCharset="utf-8"
+                className="pt10 pb10 hidden-xs applinkbox"
+              >
+                <div className="phone-input-group">
+                  <div className="custom-dropdown">
+                    <img src="./india.svg" width="15" alt="" /> +91
+                  </div>
+                  <input
+                    type="text"
+                    id="UserDetailMobile"
+                    name="data[UserDetail][mobile]"
+                    maxLength="10"
+                    placeholder="Enter phone number"
+                  />
+                  <button type="button" id="sendLink">
+                    Text App link
+                  </button>
+                </div>
+                <p className="msg">
+                  Thank you for your interest. You will receive sms shortly.
+                </p>
+                <p id="resErrorMsg" className="errorMsg">
+                  Oops somthing went wrong, please try again after some time.
+                </p>
+              </form>
+              <div className="app-badge">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.meritnation.school"
+                  className=""
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img src="./google-playstore.png" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
+      </section>
     </React.Fragment>
   );
 };
